@@ -66,6 +66,10 @@ table.status_codes {
   th:nth-child(1) {
     text-align: center;
   }
+  
+  td, th {
+    font-size: 14px;
+  }
 }
 
 .home {

@@ -5,6 +5,11 @@ nav: reference
 
 # shipcloud API v1
 
+## http status codes
+When talking to our API you can receive the following status codes:
+
+{% include reference/http_status_codes.html %}
+
 ## Shipments
 The following is a section of resources related to shipments. Be advised: We will charge you only for shipments that a
 label was created for.
@@ -105,7 +110,7 @@ __URL parameters:__
 {}
 {% endhighlight %}
 
-## Carrier
+## Carriers
 
 ### Get all carriers available for your account
 

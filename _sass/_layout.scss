@@ -61,6 +61,12 @@ table.services {
   }
 }
 
+table.status_codes {
+  td:nth-child(1),
+  th:nth-child(1) {
+    text-align: center;
+  }
+}
 
 .home {
   background-color: #6d6e71;

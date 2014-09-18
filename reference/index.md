@@ -52,13 +52,13 @@ __URL parameters:__
 
 - __id__, the id attribute that was returned when creating the shipment
 
-<i class="glyphicon glyphicon-arrow-right"></i> JSON schema: [Shipments response]({{ site.baseurl }}/reference/shipments_query_response_schema.html)
-
 #### Response
 {% include headers/200_ok.html %}
 {% highlight json %}
 {% include shipments_get_response.json %}
 {% endhighlight %}
+
+<i class="glyphicon glyphicon-arrow-right"></i> JSON schema: [Shipments response]({{ site.baseurl }}/reference/shipments_query_response_schema.html)
 
 ### Updating a shipment
 
